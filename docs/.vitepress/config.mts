@@ -8,21 +8,21 @@ export default defineConfig({
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: 'Home', link: '/' },
-      { text: 'Examples', link: '/markdown-examples' }
+      { text: '面试题', link: '/deepclone' }
     ],
 
     sidebar: [
       {
-        text: 'Examples',
+        text: 'Question',
         items: [
-          { text: 'Markdown Examples', link: '/markdown-examples' },
-          { text: 'Runtime API Examples', link: '/api-examples' }
+          { text: '深拷贝实现', link: '/deepclone' },
+          { text: 'url到页面展示', link: '/url2page' }
         ]
       }
     ],
 
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/vuejs/vitepress' }
+      // { icon: 'github', link: 'https://github.com/vuejs/vitepress' }
     ]
   }
 })

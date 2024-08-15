@@ -2,7 +2,6 @@ import { defineConfig } from 'vitepress'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  outDir: '../public',
   title: "Frontend Interview",
   description: "blog",
   themeConfig: {

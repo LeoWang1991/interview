@@ -9,7 +9,8 @@ export default defineConfig({
     nav: [
       { text: 'Home', link: '/' },
       { text: '面试题', link: '/interview/deepclone' },
-      { text: '算法题', link: '/algorithm/niuke' }
+      { text: '算法题', link: '/algorithm/niuke' },
+      { text: '题集', link: 'https://github.com/LeoWang1991/huaweiod' }
     ],
 
     sidebar: {

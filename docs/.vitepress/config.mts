@@ -19,7 +19,8 @@ export default defineConfig({
           text: '面试题',
           items: [
             { text: '深拷贝实现', link: '/interview/deepclone' },
-            { text: 'url到页面展示', link: '/interview/url2page' }
+            { text: 'url到页面展示', link: '/interview/url2page' },
+            { text: '浏览器缓存', link: '/interview/browsercache' }
           ]
         }
       ],
